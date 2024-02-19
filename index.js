@@ -19,6 +19,17 @@ function getMatchingCatsArray() {
     return matchingCatsArray
 }
 
+function getSingleCatObject() {
+    const catsArray = getMatchingCatsArray()
+
+    if (catsArray.length === 1) {
+        return catsArray[0]
+    } else {
+        let randomIndex = Math.floor(Math.random() * catsArray.length)
+        return catsArray[randomIndex]
+    }
+}
+
 function highlightCheckedOption(e) {
     const radios = document.getElementsByClassName('radio')
 
