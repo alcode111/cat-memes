@@ -79,7 +79,7 @@ header {
     border-bottom-right-radius: 5px;
 }
 
-.label {
+label {
     font-size: 14px;
     padding: 3px;
     width: 100%;
