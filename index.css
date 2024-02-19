@@ -29,6 +29,10 @@ h3 {
 /* layout */
 
 header {
+    background-color: #67595e;
+}
+
+.header-inner {
     display: flex;
     align-items: center;
     margin: 0 auto;
